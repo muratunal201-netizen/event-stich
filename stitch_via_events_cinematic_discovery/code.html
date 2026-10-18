@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Space+Grotesk:wght@300..700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"outline":"#938ea1","on-surface":"#e2e1f0","tertiary-fixed":"#a2eeff","on-secondary-fixed":"#3e001f","on-secondary-fixed-variant":"#8d004f","surface-container-low":"#1a1b25","primary-fixed":"#e6deff","on-secondary":"#640036","tertiary":"#2fd9f4","surface-container-highest":"#33343f","surface-dim":"#12131d","primary":"#cabeff","outline-variant":"#484555","inverse-primary":"#603ce2","on-tertiary-fixed":"#001f25","tertiary-fixed-dim":"#2fd9f4","background":"#12131d","secondary":"#ffb0cb","on-error-container":"#ffdad6","primary-container":"#947dff","on-tertiary-container":"#002f36","surface-variant":"#33343f","inverse-on-surface":"#2f303b","on-background":"#e2e1f0","surface-bright":"#383844","surface-container-lowest":"#0c0d18","tertiary-container":"#009fb4","inverse-surface":"#e2e1f0","on-secondary-container":"#ffe6ec","secondary-fixed":"#ffd9e3","on-surface-variant":"#c9c4d8","on-tertiary":"#00363e","on-primary-container":"#2a0088","on-primary-fixed-variant":"#4816cb","secondary-container":"#cf0176","surface-container-high":"#282934","on-primary-fixed":"#1c0062","surface":"#12131d","error-container":"#93000a","surface-container":"#1e1f2a","primary-fixed-dim":"#cabeff","surface-tint":"#cabeff","on-primary":"#31009a","error":"#ffb4ab","on-error":"#690005","on-tertiary-fixed-variant":"#004e5a","secondary-fixed-dim":"#ffb0cb"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"margin":"2rem","space-lg":"2.25rem","margin-desktop":"5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-md":"1.25rem","space-xl":"4rem","space-xs":"0.375rem","margin-mobile":"1.25rem","space-sm":"0.75rem","gutter-desktop":"2.5rem"},fontFamily:{"headline-xl-mobile":["Playfair Display"],"body-md":["Space Grotesk"],"label-caps":["Space Grotesk"],"headline-xl":["Playfair Display"],"body-sm":["Space Grotesk"],"headline-sm":["Playfair Display"],"body-xl":["Space Grotesk"],"display-hero-mobile":["Playfair Display"],"headline-md":["Playfair Display"],"headline-lg":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"display-hero":["Playfair Display"],"label-mono":["Space Grotesk"]},fontSize:{"headline-xl-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"label-caps":["11px",{"lineHeight":"16px","letterSpacing":"0.18em","fontWeight":"600"}],"headline-xl":["56px",{"lineHeight":"64px","letterSpacing":"-0.02em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-sm":["22px",{"lineHeight":"30px","letterSpacing":"0.01em","fontWeight":"600"}],"body-xl":["18px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-hero-mobile":["44px",{"lineHeight":"52px","letterSpacing":"-0.02em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"500"}],"headline-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"0em","fontWeight":"500"}],"display-hero":["80px",{"lineHeight":"88px","letterSpacing":"-0.03em","fontWeight":"400"}],"label-mono":["12px",{"lineHeight":"16px","letterSpacing":"0.08em","fontWeight":"500"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin-mobile lg:px-margin-desktop flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="VIA EVENTS Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X4jQ7j2D5M3L3VaiFBhPnElr6yKBPpldj3IbsrocceUtnJ-o4B0obMnTXT3JU525FncbfQPidx6jsB5fxMArDdYFkxjxcD0izO5aT3B2p9Cz-QLINJTW0v5XZBAdjbtM-7U45i4iKEHO4lBVB_5__m3iariNnzyRQBtEWcEK9stTdSg_vl9lioC6KB51hoEyT6XzC8_4XmmTOTGbQUhmy5K76TfOdGQ0cpFy1culHi2A1mS9WLPPeycA"/><span class="font-label-caps text-label-caps uppercase text-on-surface tracking-widest hidden sm:inline-block">VIA EVENTS CYPRUS</span></div><nav class="hidden xl:flex items-center gap-space-xs p-1 rounded-full bg-surface-container-low/70" data-active-classes="bg-surface-container-high text-on-surface rounded-full shadow-[0_0_12px_rgba(47,217,244,0.15)]"><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="kesif" href="#">01 · KEŞİF</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="donusum" href="#">02 · DÖNÜŞÜM</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="etkinlik" href="#">03 · ETKİNLİK</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="merkez" href="#">05 · MERKEZ</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="takimyildiz" href="#">06 · TAKIMYILDIZ</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="evren" href="#">07 · EVREN</a><a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-on-surface px-space-sm py-1.5 rounded-full transition-all duration-300" data-path="final" href="#">08 · FİNAL</a></nav><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low/60 text-on-surface-variant"><span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-mono text-label-mono tracking-wider text-on-surface">SOUNDSCAPE</span></div><div class="hidden md:flex items-center gap-space-xs font-label-mono text-label-mono tracking-wider text-on-surface-variant"><span class="text-on-surface">KIBRIS</span><span class="text-outline-variant">·</span><span>EN / TR</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full selection:bg-primary-container selection:text-on-primary-container">
+<!-- LIVING ATMOSPHERIC FIXED RADIAL GLOW CANVAS -->
+<div class="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
+<div class="absolute -top-[20%] left-1/4 w-[750px] h-[750px] rounded-full bg-primary-container/10 blur-[140px] animate-pulse"></div>
+<div class="absolute top-[45%] -right-[15%] w-[650px] h-[650px] rounded-full bg-secondary-container/10 blur-[160px]"></div>
+<div class="absolute bottom-[10%] left-[-10%] w-[800px] h-[800px] rounded-full bg-tertiary-container/10 blur-[180px]"></div>
+<!-- Film Grain Micro Grid Texture via SVG -->
+<svg class="absolute inset-0 w-full h-full opacity-[0.035]" xmlns="http://www.w3.org/2000/svg">
+<filter id="noiseFilter">
+<feturbulence basefrequency="0.8" numoctaves="3" stitchtiles="stitch" type="fractalNoise"></feturbulence>
+</filter>
+<rect filter="url(#noiseFilter)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<!-- FLOATING CINEMATIC TIME-TRACKER DOCK -->
+<aside class="fixed right-4 md:right-8 top-1/2 -translate-y-1/2 z-40 hidden lg:flex flex-col items-center gap-space-sm p-2 rounded-full bg-surface-container-lowest/70 backdrop-blur-2xl shadow-xl">
+<div class="w-px h-8 bg-gradient-to-b from-transparent via-primary/40 to-primary"></div>
+<span class="font-label-mono text-[9px] uppercase tracking-widest text-outline [writing-mode:vertical-rl] rotate-180">ORBIT SEQUENCE</span>
+<nav aria-label="States Navigation" class="flex flex-col gap-2 my-1">
+<a class="w-2.5 h-2.5 rounded-full bg-primary hover:scale-125 transition-all shadow-[0_0_10px_rgba(202,190,255,0.7)]" href="#state-1" title="01 Discovery"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-tertiary transition-all" href="#state-2" title="02 Metamorphosis"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-secondary transition-all" href="#state-3" title="03 Featured Event"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-primary transition-all" href="#state-4" title="04 Breakdown"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-tertiary-fixed-dim transition-all" href="#state-5" title="05 Amber Core"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-secondary-fixed transition-all" href="#state-6" title="06 Constellation"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-tertiary transition-all" href="#state-7" title="07 Event Universe"></a>
+<a class="w-2 h-2 rounded-full bg-surface-bright hover:bg-primary transition-all" href="#state-8" title="08 Finale"></a>
+</nav>
+<div class="w-px h-8 bg-gradient-to-t from-transparent via-primary/40 to-primary"></div>
+</aside>
+<!-- ============================================================== -->
+<!-- STATE 1: OPENING / DISCOVERY (HERO POSTER OVERTURE)            -->
+<!-- ============================================================== -->
+<section class="relative w-full min-h-[92vh] flex flex-col justify-between px-margin-mobile lg:px-margin-desktop py-space-lg overflow-hidden" id="state-1">
+<!-- Bleed Background Mediterranean Nocturne Image with Mask -->
+<div class="absolute inset-0 -z-10 overflow-hidden">
+<img class="w-full h-full object-cover object-center scale-105 filter brightness-[0.78] contrast-125 transition-transform duration-1000" data-alt="Cyprus Kyrenia coastline at midnight with glowing deep navy water, calm nocturnal reflections, warm amber and cyan harbor lights along dark mountain silhouette under a vast starlit purple sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdl8a-KuF1BATMfH18J_EnxDT4Z0FlmKrrPu12PmThCwkfODX2QVJ_B9sGaQtdh1f1QD3NfsZ1ObJh6dUc4zcFhE5L2Xw3rTrhlhAOzIE_uaIIOzE6bC5LRDjjq8NNVM3P7JrGyMzSxubwSLPrhwbp87vsMcJcNvXWzLAa6XBnK63WKhF-6XugsJXjTHVFA0kugbpNGY8yipSrcBqkNYYZj3WjSSh7XZO_51FyBwEKyfB9Gjwlr8ML"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-background/30 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background/80"></div>
+</div>
+<!-- Top Telemetry Metadata Line -->
+<div class="w-full flex items-center justify-between text-on-surface-variant font-label-mono text-label-mono tracking-wider pt-2">
+<div class="flex items-center gap-space-xs">
+<span class="inline-block w-2 h-2 rounded-full bg-tertiary animate-ping"></span>
+<span class="text-on-surface">MEDITERRANEAN NOCTURNE</span>
+<span class="text-outline-variant">/</span>
+<span>LAT 35.1856° N</span>
+</div>
+<div class="hidden sm:flex items-center gap-space-sm text-outline">
+<span>KIBRIS KÜLTÜR VE PERFORMANS ATLASI</span>
+<span class="text-on-surface-variant">SEASON 2025</span>
+</div>
+</div>
+<!-- Monumental Typography Canvas -->
+<div class="my-auto py-space-xl flex flex-col relative z-10 max-w-6xl">
+<div class="flex items-center gap-space-sm mb-space-xs">
+<span class="font-label-caps text-label-caps uppercase tracking-[0.28em] text-primary bg-surface-container-high/80 px-3 py-1 rounded-full backdrop-blur-md">01 · KEŞİF FAZI</span>
+<span class="font-label-mono text-label-mono text-secondary-fixed">NOTHING SIMPLY ENTERS. SOMETHING BECOMES IT.</span>
+</div>
+<div class="relative">
+<h1 class="font-display-hero text-display-hero-mobile md:text-display-hero text-on-surface leading-[0.92] tracking-tight -ml-1 select-none">
+<span class="block italic font-light text-primary-fixed">VIA</span>
+<span class="block font-medium tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-on-surface via-primary to-secondary">EVENTS</span>
+</h1>
+<div class="mt-space-sm md:-mt-6 flex flex-wrap items-baseline gap-space-sm md:gap-space-md">
+<span class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface-variant italic font-serif">Kıbrıs'ta</span>
+<span class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-tertiary font-bold tracking-tight">Ne Var?</span>
+<p class="font-label-caps text-label-caps tracking-[0.24em] uppercase text-outline self-center pl-space-xs hidden md:inline-block">DISCOVER WHAT HAPPENS TONIGHT UNDER THE CYPRUS CONSTELLATION</p>
+</div>
+</div>
+</div>
+<!-- Suspended Discovery Floating Capsule -->
+<div class="w-full relative z-20 pb-4">
+<div class="w-full max-w-5xl mx-auto rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl p-2 sm:p-3 shadow-[0_20px_50px_rgba(0,0,0,0.6)]">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-2 items-center">
+<!-- Search input -->
+<div class="md:col-span-4 flex items-center gap-space-xs px-space-sm py-2.5 rounded-xl bg-surface-container-lowest/80 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px]">search</span>
+<input class="bg-transparent border-none outline-none font-body-sm text-body-sm text-on-surface placeholder:text-outline w-full focus:ring-0" placeholder="Etkinlik, sanatçı veya deneyim ara..." type="text"/>
+</div>
+<!-- Location Selector -->
+<div class="md:col-span-3 flex items-center justify-between px-space-sm py-2.5 rounded-xl bg-surface-container-lowest/60 text-on-surface hover:bg-surface-container-lowest transition-colors cursor-pointer group">
+<div class="flex items-center gap-space-xs truncate">
+<span class="material-symbols-outlined text-tertiary text-[20px]">location_on</span>
+<span class="font-body-sm text-body-sm truncate text-on-surface">Tüm Ada / Lefkoşa / Girne</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-on-surface text-[18px]">expand_more</span>
+</div>
+<!-- Temporal Filter -->
+<div class="md:col-span-3 flex items-center justify-between px-space-sm py-2.5 rounded-xl bg-surface-container-lowest/60 text-on-surface hover:bg-surface-container-lowest transition-colors cursor-pointer group">
+<div class="flex items-center gap-space-xs truncate">
+<span class="material-symbols-outlined text-secondary text-[20px]">calendar_today</span>
+<span class="font-body-sm text-body-sm truncate text-on-surface">Bu Gece &amp; Hafta Sonu</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-on-surface text-[18px]">tune</span>
+</div>
+<!-- Action CTA -->
+<div class="md:col-span-2">
+<button class="w-full flex items-center justify-center gap-space-xs px-space-md py-3 rounded-xl bg-primary text-on-primary font-label-mono text-label-mono uppercase tracking-wider hover:bg-primary-container transition-all duration-300 shadow-[0_0_24px_rgba(202,190,255,0.35)] group">
+<span>KEŞFE ÇIK</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 2: SEARCH TRANSFORMATION (METAMORPHIC INTERMEDIARY)       -->
+<!-- ============================================================== -->
+<section class="relative w-full py-space-xl px-margin-mobile lg:px-margin-desktop overflow-hidden bg-surface-container-lowest" id="state-2">
+<!-- Kinetic Light Ribbons & Vectors -->
+<div class="absolute inset-0 pointer-events-none opacity-40">
+<svg class="w-full h-full" fill="none" preserveaspectratio="none" viewbox="0 0 1440 400">
+<path d="M-100,100 C300,300 800,-50 1500,280" stroke="url(#paint0_linear)" stroke-dasharray="8 6" stroke-width="1.5"></path>
+<path d="M-100,280 C400,80 900,380 1500,120" stroke="url(#paint1_linear)" stroke-width="1.2"></path>
+<defs>
+<lineargradient gradientunits="userSpaceOnUse" id="paint0_linear" x1="0" x2="1440" y1="0" y2="400">
+<stop stop-color="#cabeff" stop-opacity="0.1"></stop>
+<stop offset="0.5" stop-color="#2fd9f4" stop-opacity="0.8"></stop>
+<stop offset="1" stop-color="#ffb0cb" stop-opacity="0.1"></stop>
+</lineargradient>
+<lineargradient gradientunits="userSpaceOnUse" id="paint1_linear" x1="0" x2="1440" y1="0" y2="400">
+<stop stop-color="#cf0176" stop-opacity="0.1"></stop>
+<stop offset="0.6" stop-color="#947dff" stop-opacity="0.6"></stop>
+<stop offset="1" stop-color="#2fd9f4" stop-opacity="0.9"></stop>
+</lineargradient>
+</defs>
+</svg>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-[0.24em] text-tertiary">02 · METAMORFOZ</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">Aramanın Formu Çözülüyor</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Arama parametreleri fiziksel koordinatlara ve dokunsal frekanslara parçalanıyor. Her seçim, Kıbrıs'ın kadim toprak hafızasında canlanan bir atölye formuna evriliyor.
+        </p>
+</div>
+<!-- Deconstructed Shards Array -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter mt-space-md">
+<!-- Shard 01 -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-xl shadow-lg -rotate-2 hover:rotate-0 transition-transform duration-500">
+<div class="flex items-center justify-between text-tertiary mb-space-sm font-label-mono text-label-mono">
+<span>[ GEO:35.1856°N ]</span>
+<span class="material-symbols-outlined text-[16px]">sensors</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface mb-1">Toprak Frekansı</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Güzelyurt kızıl kili viskozitesi ve doku taranması başlatıldı.</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-outline">
+<span>STABİLİZASYON</span>
+<span class="text-tertiary font-bold">98.4%</span>
+</div>
+</div>
+<!-- Shard 02 (Elevated & Overlapping) -->
+<div class="p-space-md rounded-2xl bg-surface-container/90 backdrop-blur-xl shadow-2xl rotate-1 md:-mt-6 hover:rotate-0 transition-transform duration-500">
+<div class="flex items-center justify-between text-secondary mb-space-sm font-label-mono text-label-mono">
+<span>[ ZAMAN PULSU ]</span>
+<span class="w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface mb-1">02 EKİM // 16:00</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Güneşin eğik ışığı antik taş atölye pencerelerinden sızarken.</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-secondary">
+<span>REZONANS</span>
+<span>432 Hz</span>
+</div>
+</div>
+<!-- Shard 03 -->
+<div class="p-space-md rounded-2xl bg-surface-container-low/80 backdrop-blur-xl shadow-lg -rotate-1 hover:rotate-0 transition-transform duration-500">
+<div class="flex items-center justify-between text-primary mb-space-sm font-label-mono text-label-mono">
+<span>[ KÜRATÖR ONAYI ]</span>
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface mb-1">Monolitik Form</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Çömlekçi çarkı dönüş ekseninde şekillenen kinetik ritim.</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-outline">
+<span>KAPASİTE</span>
+<span class="text-primary font-bold">14 / 16 DOLU</span>
+</div>
+</div>
+<!-- Shard 04 (Luminous Assembly Vector) -->
+<div class="p-space-md rounded-2xl bg-gradient-to-br from-surface-container-high to-surface-container-lowest backdrop-blur-xl shadow-xl rotate-3 md:-mt-3 hover:rotate-0 transition-transform duration-500 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between text-tertiary-fixed-dim mb-space-sm font-label-mono text-label-mono">
+<span>[ ODDAĞA ÇAĞRI ]</span>
+<span class="material-symbols-outlined text-[18px] animate-pulse">east</span>
+</div>
+<div class="font-headline-sm text-headline-sm text-on-surface mb-1">Tek Parçaya Dönüş</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Arama parçacıkları küratöryel poster yüzeyine kilitleniyor.</p>
+</div>
+<a class="mt-space-md inline-flex items-center gap-1 font-label-mono text-label-mono uppercase text-primary hover:text-primary-fixed" href="#state-3">
+<span>BÜTÜNÜ İZLE</span>
+<span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 3: FEATURED EVENT TAKEOVER (LUXURY EDITORIAL POSTER)      -->
+<!-- ============================================================== -->
+<section class="relative w-full min-h-screen py-space-xl px-margin-mobile lg:px-margin-desktop flex flex-col justify-center overflow-hidden" id="state-3">
+<!-- Background Chiaroscuro Radial Spotlights -->
+<div class="absolute -left-40 top-1/4 w-[600px] h-[600px] rounded-full bg-secondary-container/15 blur-[160px] pointer-events-none"></div>
+<div class="absolute -right-40 bottom-1/4 w-[700px] h-[700px] rounded-full bg-primary-container/10 blur-[180px] pointer-events-none"></div>
+<div class="relative z-10 w-full max-w-7xl mx-auto">
+<!-- Poster Perimeter Technical Telemetry -->
+<div class="w-full flex flex-wrap items-center justify-between pb-space-md font-label-mono text-label-mono text-on-surface-variant gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
+<span class="text-on-surface font-semibold tracking-wider">STATE 03 · FEATURED IMMERSION</span>
+<span class="text-outline-variant">/</span>
+<span>CURATORIAL ARCHIVE № 884</span>
+</div>
+<div class="flex items-center gap-space-md text-outline">
+<span>GÜZELYURT SERAMİK LAB</span>
+<span>LOCATION 35.1978° N, 32.9930° E</span>
+</div>
+</div>
+<!-- Asymmetric Monograph Grid Composition -->
+<div class="relative grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-center">
+<!-- Left Editorial Typography Column (Spanning into Image) -->
+<div class="lg:col-span-5 flex flex-col z-20">
+<!-- Giant Outlined Serif Numerals & Tag -->
+<div class="flex items-baseline gap-space-sm">
+<span class="font-display-hero text-[110px] md:text-[140px] leading-none text-transparent stroke-text font-serif select-none opacity-80" style="-webkit-text-stroke: 1.5px #ffb0cb;">
+              02
+            </span>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md tracking-widest uppercase text-on-surface font-light">EKİM</span>
+<span class="inline-flex items-center gap-1 font-label-caps text-label-caps uppercase tracking-widest text-secondary-fixed bg-secondary-container/30 px-2.5 py-1 rounded-full w-max">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                ATÖLYE &amp; DOKU
+              </span>
+</div>
+</div>
+<!-- Dramatic Oversized Serif Header with Text Scrim -->
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface -mt-2 leading-[1.05] tracking-tight">
+            Kurgusal Seramik <br/>
+<span class="italic font-normal text-secondary-fixed">Atölyesi</span>
+</h2>
+<div class="mt-space-md flex flex-col gap-space-sm text-on-surface-variant font-body-md text-body-md max-w-lg">
+<p>
+              Akdeniz toprağı ile dokunsal formlar arayışı. Kıbrıs'ın killi katmanlarından elde edilen ham çamur, taş duvarlı tarihi mekanda insan teniyle ve ritmik çarkla yeniden doğuyor.
+            </p>
+<div class="p-space-sm rounded-xl bg-surface-container-low/70 backdrop-blur-md flex items-center justify-between text-on-surface font-label-mono text-label-mono">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
+<span>16:00 · 3 SAAT SÜRE</span>
+</div>
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+<span>MALZEME DAHİL</span>
+</div>
+</div>
+</div>
+<!-- Micro-Actions -->
+<div class="mt-space-lg flex flex-wrap items-center gap-space-sm">
+<button class="px-space-lg py-3.5 rounded-xl bg-secondary-container text-on-secondary-container font-label-mono text-label-mono uppercase tracking-widest font-semibold hover:bg-secondary hover:text-on-secondary transition-all shadow-[0_0_30px_rgba(207,1,118,0.4)] flex items-center gap-2 group">
+<span>ÖZEL REZERVASYON TALEBİ</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">bolt</span>
+</button>
+<a class="px-space-md py-3.5 rounded-xl bg-surface-container-high/60 backdrop-blur-md text-on-surface font-label-mono text-label-mono uppercase tracking-wider hover:bg-surface-container-highest transition-all flex items-center gap-2" href="#state-4">
+<span>SANATÇI MANİFESTOSU</span>
+<span class="material-symbols-outlined text-[18px]">arrow_right_alt</span>
+</a>
+</div>
+</div>
+<!-- Right Poster Bleed Image (>50% visual dominance with layered cutouts) -->
+<div class="lg:col-span-7 relative z-10 -ml-0 lg:-ml-12 mt-6 lg:mt-0">
+<div class="relative w-full aspect-[4/3] md:aspect-[16/11] rounded-3xl overflow-hidden shadow-2xl shadow-black/80">
+<!-- Terracotta Artisan Craft Image -->
+<img class="w-full h-full object-cover object-center filter contrast-110 brightness-95" data-alt="Close up chiaroscuro fine art photography of skilled artisan hands gently shaping a wet dark terracotta clay vessel on a spinning wooden pottery wheel in a rustic stone Mediterranean workshop under warm dramatic dramatic sidelight and atmospheric dark shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMgmjN4RhiRHkpHIc4qrlawOzney0-AOdCsIrb5Lt89nBiHUFm5--eaUV0iPxlGOhOO0O0AmBBNaeJlnxLmzce3O3aLOaRs8zoSJ2tm8U6DZ-HhfsaQtkwPx4ibFtTmJt3snmg_OihLnAwX0YR1o5Fe4kXjmy3HngqczGwOvvxzMBBCg1Tbb8MyUzMA6PAkohuAcApr8fvOWD8mQmhfMX1RGVgbevoOZIpiW5TDjoHy4vV3YbCVAk0"/>
+<!-- Organic Vignette & Gradient Melts into Midnight Background -->
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-background via-transparent to-transparent opacity-85"></div>
+<div class="absolute inset-0 bg-secondary/10 mix-blend-color"></div>
+<!-- Overlaid Spatial Floating Badges -->
+<div class="absolute top-6 right-6 p-space-sm rounded-2xl bg-surface-container-lowest/80 backdrop-blur-xl shadow-xl flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary-container/50 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[24px]">architecture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-secondary uppercase">ATELIER MASTER</span>
+<span class="font-body-sm text-body-sm font-semibold text-on-surface">Elena Hadjivasiliou</span>
+</div>
+</div>
+<!-- Bottom Floating Telemetry Bar on Image -->
+<div class="absolute bottom-6 left-6 right-6 p-space-sm rounded-2xl bg-surface-container-lowest/85 backdrop-blur-xl flex flex-wrap items-center justify-between gap-space-xs text-on-surface-variant font-label-mono text-[12px]">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px]">location_on</span>
+<span class="text-on-surface">GÜZELYURT TAŞ MEKTEP ATÖLYE NO:4</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-tertiary">KONTENJAN: 16 SANATSEVER</span>
+<span class="text-outline-variant">·</span>
+<span class="text-on-surface font-semibold">1,450 ₺ / KİŞİ</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 4: FEATURED BREAKDOWN (DISSOLUTION & RE-EMERGENCE)       -->
+<!-- ============================================================== -->
+<section class="relative w-full py-space-xl px-margin-mobile lg:px-margin-desktop overflow-hidden bg-surface-container-lowest/50" id="state-4">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg relative z-10">
+<div class="flex items-center justify-between border-b-0 pb-space-sm">
+<span class="font-label-caps text-label-caps uppercase tracking-[0.24em] text-primary">04 · ÇÖZÜNÜM VE YENİDEN DOĞUŞ</span>
+<span class="font-label-mono text-label-mono text-outline">DECONSTRUCTING SINGLE EVENT INTO TAXONOMY</span>
+</div>
+<!-- Receding ceramic space with floating orbital typography -->
+<div class="relative py-space-xl flex flex-col items-center justify-center text-center">
+<!-- Receding Ambient Violet Glow in Deep Z-Space -->
+<div class="absolute w-[500px] h-[500px] rounded-full bg-primary-container/20 blur-[130px] pointer-events-none"></div>
+<!-- Floating orbital metadata shards -->
+<div class="flex flex-wrap items-center justify-center gap-space-sm max-w-2xl mb-space-md opacity-80">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high/60 backdrop-blur-md font-label-mono text-label-mono text-secondary-fixed">GÜZELYURT → ADA GENELİ</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high/60 backdrop-blur-md font-label-mono text-label-mono text-tertiary">02 EKİM → TÜM SEZON</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high/60 backdrop-blur-md font-label-mono text-label-mono text-primary">DOKUNSAL DENEYİM → KOLLEKTİF HAFIZA</span>
+</div>
+<!-- Monumental Expanding Letterforms: ATÖLYELER -->
+<div class="relative w-full overflow-hidden select-none py-space-sm">
+<h2 class="font-display-hero text-[58px] sm:text-[96px] md:text-[140px] lg:text-[180px] font-serif leading-none tracking-tight text-transparent bg-clip-text bg-gradient-to-b from-on-surface/40 via-primary/20 to-transparent">
+            ATÖLYELER
+          </h2>
+<div class="absolute inset-x-0 bottom-6 flex justify-center">
+<span class="font-label-mono text-label-mono uppercase tracking-[0.3em] text-tertiary-fixed bg-surface-container-lowest/90 px-4 py-1.5 rounded-full shadow-lg">
+              KATEGORİK KÖK DOĞUYOR
+            </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-space-sm">
+          Tek bir seramik formunun arkasında, adanın tüm yaratıcı üretim damarları titreşmeye başlıyor. Atölye kavramı singulariteye çekilerek tüm Kıbrıs'ın kültür matrisini ateşliyor.
+        </p>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 5: CATEGORY CORE (THE AMBER SINGULARITY)                  -->
+<!-- ============================================================== -->
+<section class="relative w-full py-space-xl px-margin-mobile lg:px-margin-desktop overflow-hidden" id="state-5">
+<!-- Deep Amber Gravitational Well -->
+<div class="max-w-4xl mx-auto flex flex-col items-center text-center relative z-10">
+<span class="font-label-caps text-label-caps uppercase tracking-[0.28em] text-tertiary-fixed mb-space-sm">
+        05 · KEHRİBAR TEKİLLİK / THE CORE
+      </span>
+<!-- Concentric Orbital Radiant Rings Graphic -->
+<div class="relative w-72 h-72 md:w-96 md:h-96 my-space-md flex items-center justify-center">
+<!-- Outermost pulse wave -->
+<div class="absolute inset-0 rounded-full border border-tertiary-fixed/20 animate-ping opacity-30"></div>
+<!-- Middle orbital rotating ring -->
+<div class="absolute inset-8 rounded-full border border-dashed border-tertiary-fixed/40 animate-spin" style="animation-duration: 25s;"></div>
+<!-- Inner dense aura -->
+<div class="absolute inset-16 rounded-full bg-gradient-to-tr from-secondary-container/40 via-tertiary-fixed-dim/30 to-primary-container/20 blur-2xl"></div>
+<!-- Core Nucleus Node -->
+<div class="relative z-10 w-36 h-36 md:w-44 md:h-44 rounded-full bg-surface-container-lowest flex flex-col items-center justify-center p-4 shadow-[0_0_60px_rgba(47,217,244,0.35)] cursor-pointer hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-tertiary text-[36px] mb-1">grain</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-serif">ATÖLYELER</span>
+<span class="font-label-mono text-[11px] text-tertiary-fixed tracking-wider mt-1">24 DENEYİM</span>
+</div>
+<!-- Floating Magnetic Particle Badges -->
+<div class="absolute top-2 left-6 px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md font-label-mono text-[10px] text-on-surface shadow-md">
+          CERAMIC · 8
+        </div>
+<div class="absolute bottom-6 left-2 px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md font-label-mono text-[10px] text-on-surface shadow-md">
+          BOTANIC · 5
+        </div>
+<div class="absolute top-8 right-4 px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md font-label-mono text-[10px] text-on-surface shadow-md">
+          GASTRONOMY · 6
+        </div>
+<div class="absolute bottom-4 right-8 px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md font-label-mono text-[10px] text-on-surface shadow-md">
+          TEXTILE · 5
+        </div>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-space-sm">
+        Tekillik Parlıyor: Ada Çapında 9 Kültürel Matris Uyanıyor
+      </h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg mt-space-xs">
+        Merkezdeki atölye çekirdeği Kıbrıs semalarında serbest enerji dalgaları yayarak tiyatro, konser, antik sahneler ve gece titreşimlerini hizalıyor.
+      </p>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 6: CATEGORY UNIVERSE (ASYMMETRIC CELESTIAL CONSTELLATION) -->
+<!-- ============================================================== -->
+<section class="relative w-full py-space-xl px-margin-mobile lg:px-margin-desktop overflow-hidden bg-surface-container-lowest" id="state-6">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg relative z-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-[0.24em] text-secondary">06 · KÜLTÜREL TAKIMYILDIZ</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">Kıbrıs Kültür Galaksisi</h2>
+</div>
+<div class="font-label-mono text-label-mono text-outline flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-tertiary"></span>
+<span>9 AKTİF ÇEKİRDEK · CANLI SİNYAL</span>
+</div>
+</div>
+<!-- Organic Celestial Map Canvas (Asymmetric Layout, NOT an app grid) -->
+<div class="relative w-full min-h-[580px] rounded-3xl bg-surface-container-low/40 backdrop-blur-md p-space-md overflow-hidden flex items-center justify-center">
+<!-- Subtle Vector Constellation Webbing in SVG -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none opacity-25" preserveaspectratio="none" viewbox="0 0 1000 600">
+<line stroke="#cabeff" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="220" y1="300" y2="120"></line>
+<line stroke="#cabeff" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="780" y1="300" y2="130"></line>
+<line stroke="#ffb0cb" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="120" y1="300" y2="340"></line>
+<line stroke="#2fd9f4" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="880" y1="300" y2="350"></line>
+<line stroke="#2fd9f4" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="260" y1="300" y2="500"></line>
+<line stroke="#cf0176" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="520" y1="300" y2="520"></line>
+<line stroke="#cabeff" stroke-dasharray="4 4" stroke-width="1.2" x1="500" x2="510" y1="300" y2="90"></line>
+<line stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7" x1="220" x2="510" y1="120" y2="90"></line>
+<line stroke="#ffffff" stroke-opacity="0.3" stroke-width="0.7" x1="780" x2="880" y1="130" y2="350"></line>
+</svg>
+<!-- Node 1: ATÖLYELER (Central Celestial Anchor) -->
+<div class="relative z-20 flex flex-col items-center group cursor-pointer">
+<div class="w-28 h-28 rounded-full bg-surface-container-high/90 backdrop-blur-2xl flex flex-col items-center justify-center p-3 shadow-[0_0_40px_rgba(47,217,244,0.4)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-tertiary text-[28px]">brush</span>
+<span class="font-headline-sm text-[16px] text-on-surface font-serif mt-1">ATÖLYELER</span>
+<span class="font-label-mono text-[9px] text-tertiary-fixed">24 ETKİNLİK</span>
+</div>
+<span class="mt-2 font-label-mono text-[10px] text-outline uppercase tracking-wider">MERKEZİ ÇEKİRDEK</span>
+</div>
+<!-- Node 2: KONSER (Top-Left Aura) -->
+<div class="absolute top-10 left-[8%] md:left-[16%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-24 h-24 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_35px_rgba(202,190,255,0.35)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-[24px]">music_note</span>
+<span class="font-headline-sm text-[14px] text-on-surface font-serif mt-0.5">KONSER</span>
+<span class="font-label-mono text-[9px] text-primary">42 ETKİNLİK</span>
+</div>
+<span class="mt-1 font-label-mono text-[9px] text-outline">BELLAPAIS · SALAMIS</span>
+</div>
+<!-- Node 3: FESTİVAL (Top-Right Aura) -->
+<div class="absolute top-12 right-[8%] md:right-[18%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-24 h-24 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_35px_rgba(148,125,255,0.35)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-container text-[24px]">festival</span>
+<span class="font-headline-sm text-[14px] text-on-surface font-serif mt-0.5">FESTİVAL</span>
+<span class="font-label-mono text-[9px] text-primary-fixed">18 ETKİNLİK</span>
+</div>
+<span class="mt-1 font-label-mono text-[9px] text-outline">LEFKARA · KARPAZ</span>
+</div>
+<!-- Node 4: TİYATRO (Far-Left Warm Glow) -->
+<div class="absolute top-[48%] left-[4%] md:left-[8%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-20 h-20 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_25px_rgba(255,176,203,0.3)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-secondary text-[22px]">theater_comedy</span>
+<span class="font-headline-sm text-[13px] text-on-surface font-serif">TİYATRO</span>
+<span class="font-label-mono text-[8px] text-secondary">11 OYUN</span>
+</div>
+</div>
+<!-- Node 5: GECE HAYATI (Midnight Neon Halo, Right) -->
+<div class="absolute top-[46%] right-[5%] md:right-[9%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-22 h-22 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2.5 shadow-[0_0_35px_rgba(207,1,118,0.5)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-secondary-container text-[22px]">nightlife</span>
+<span class="font-headline-sm text-[13px] text-on-surface font-serif text-center leading-tight">GECE HAYATI</span>
+<span class="font-label-mono text-[8px] text-secondary-fixed">36 KULÜP</span>
+</div>
+</div>
+<!-- Node 6: SPOR (Cyan / Coastal, Bottom-Left) -->
+<div class="absolute bottom-8 left-[14%] md:left-[22%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-20 h-20 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_25px_rgba(47,217,244,0.3)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-tertiary text-[20px]">directions_bike</span>
+<span class="font-headline-sm text-[13px] text-on-surface font-serif">SPOR</span>
+<span class="font-label-mono text-[8px] text-tertiary">9 ROTA</span>
+</div>
+</div>
+<!-- Node 7: STAND-UP (Electric Magenta, Mid-Bottom) -->
+<div class="absolute bottom-6 left-[46%] -translate-x-1/2 z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-20 h-20 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_25px_rgba(255,176,203,0.3)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-secondary text-[20px]">mic</span>
+<span class="font-headline-sm text-[13px] text-on-surface font-serif">STAND-UP</span>
+<span class="font-label-mono text-[8px] text-secondary">7 GÖSTERİ</span>
+</div>
+</div>
+<!-- Node 8: AİLE (Soft Cerulean, Upper-Center) -->
+<div class="absolute top-6 left-[48%] -translate-x-1/2 z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-18 h-18 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_20px_rgba(202,190,255,0.25)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">family_restroom</span>
+<span class="font-headline-sm text-[12px] text-on-surface font-serif">AİLE</span>
+<span class="font-label-mono text-[8px] text-outline">15 ETKİNLİK</span>
+</div>
+</div>
+<!-- Node 9: SANAT (Far-Right Violet Glow) -->
+<div class="absolute bottom-12 right-[18%] md:right-[26%] z-10 flex flex-col items-center group cursor-pointer hover:z-30">
+<div class="w-20 h-20 rounded-full bg-surface-container-low/90 backdrop-blur-xl flex flex-col items-center justify-center p-2 shadow-[0_0_25px_rgba(148,125,255,0.3)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-[20px]">museum</span>
+<span class="font-headline-sm text-[13px] text-on-surface font-serif">SANAT</span>
+<span class="font-label-mono text-[8px] text-primary">14 GALERİ</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 7: EVENT UNIVERSE (POPULATED ORBITING DESTINATIONS)       -->
+<!-- ============================================================== -->
+<section class="relative w-full py-space-xl px-margin-mobile lg:px-margin-desktop overflow-hidden" id="state-7">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg relative z-10">
+<!-- Editorial Section Masthead -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-caps text-label-caps uppercase tracking-[0.28em] text-tertiary">07 · ETKİNLİK EVRENİ</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mt-1">Yörüngedeki Seçkin Rotalar</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-2">
+            Her deneyim, kategorik takımyıldızın etrafında belirli bir mekânsal ve zamansal derinlikte asılı duran bağımsız bir monograftır.
+          </p>
+</div>
+<!-- Filter Pills Segment -->
+<div class="flex flex-wrap gap-1.5 p-1 rounded-full bg-surface-container-low/80 backdrop-blur-xl">
+<button class="px-space-sm py-1.5 rounded-full bg-primary text-on-primary font-label-mono text-[11px] uppercase tracking-wider">TÜMÜ (11)</button>
+<button class="px-space-sm py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-mono text-[11px] uppercase tracking-wider">BU GECE</button>
+<button class="px-space-sm py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-mono text-[11px] uppercase tracking-wider">TARİHİ MEKANLAR</button>
+<button class="px-space-sm py-1.5 rounded-full text-on-surface-variant hover:text-on-surface font-label-mono text-[11px] uppercase tracking-wider">AÇIK HAVA</button>
+</div>
+</div>
+<!-- Asymmetrical Editorial Curated Event Cards Canvas (No standard 3x3 grid) -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter-desktop mt-space-md">
+<!-- Event 01: Hero Panoramic Span (6 Cols) -->
+<div class="md:col-span-6 group relative rounded-3xl overflow-hidden bg-surface-container-low/80 backdrop-blur-xl shadow-xl hover:-translate-y-1 transition-all duration-500">
+<div class="h-64 sm:h-72 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" data-alt="Bellapais Abbey northern Cyprus gothic stone arches illuminated by soft warm spotlights during a classical acoustic concert under dark starlit night sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzRZUEvffpF0y66_3vkFrN9-06jA45y4JxPzqFEk6DcrKz8EIp1zmruHxWa3M0VGAUcR22t_BZbRwMnF8h161W5RUwH3-E4z1ouCwepaksQbJV_n2BP9WzTeHJ6iieGBNS076JtlJ5QJh1gf5dkbbnBSbM0CpdTRhhLHBYNsofBYQTC7aWndtJf8MEXUMuqVJDQNi-GiypNszeItomjTaa4sjjtO8mblYMoJp9xW7uBIw1wyLLP7aY"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-[11px] text-primary flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+              KONSER // AKUSTİK
+            </div>
+<div class="absolute top-4 right-4 font-label-mono text-label-mono text-on-surface bg-surface-container-lowest/70 px-2.5 py-1 rounded">
+              20:30
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">BELLAPAİS MANASTIRI · GİRNE</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1 group-hover:text-primary transition-colors">Akdeniz Akustik Konseri</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-2">Gotik kemerler altında yankılanan viyolonsel ve lavta tınıları, Akdeniz meltemiyle harmanlanıyor.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant border-t-0">
+<span class="text-tertiary">BİLETLER TÜKENİYOR</span>
+<span class="font-medium text-on-surface">REZERVASYON →</span>
+</div>
+</div>
+</div>
+<!-- Event 02: Vertical Editorial Card (6 Cols) -->
+<div class="md:col-span-6 group relative rounded-3xl overflow-hidden bg-surface-container-low/80 backdrop-blur-xl shadow-xl hover:-translate-y-1 transition-all duration-500">
+<div class="h-64 sm:h-72 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" data-alt="Ancient Salamis amphitheater in Cyprus at dusk with illuminated classical actors performing an atmospheric drama under deep blue twilight with ancient marble columns" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAN7CBS3iyWEM4XxHVV-Lx-D8XcYzYNLm8_86CEFTMIAth6ITWeTl0Wmik-ntqn2Z4mSwEiV4hC_8do1XUQUs9WWpaBo0oSlATlfnvQPFycKUjwAusvi8eDpka-T3d0R6OAXLtdfTSx6ji4CmnbBzeGqNu_1P_YE5NQEvgpea5kPM8aS2pvtRF78DDISA6VJEkq6t59-tX6X4pNVYMnhNjRtoOyS6hQUphbD26D54eeaNiU3yBd_hA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-surface-container-low/40 to-transparent"></div>
+<div class="absolute top-4 left-4 px-3 py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md font-label-mono text-[11px] text-secondary flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              TİYATRO // KLASİK
+            </div>
+<div class="absolute top-4 right-4 font-label-mono text-label-mono text-on-surface bg-surface-container-lowest/70 px-2.5 py-1 rounded">
+              21:00
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between">
+<div>
+<span class="font-label-mono text-label-mono text-outline">SALAMİS ANTİK TİYATROSU · GAZİMAĞUSA</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-1 group-hover:text-secondary transition-colors">Bir Yaz Gecesi Rüyası</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 line-clamp-2">2000 yıllık mermer basamaklarda Shakespeare’in büyülü komedisi, Akdeniz’in tuzlu gecesinde sahneleniyor.</p>
+</div>
+<div class="mt-space-md pt-space-xs flex items-center justify-between font-label-mono text-label-mono text-on-surface-variant">
+<span class="text-secondary-fixed">ÖZEL SAHNE DÜZENİ</span>
+<span class="font-medium text-on-surface">DETAYLAR →</span>
+</div>
+</div>
+</div>
+<!-- Event 03: Compact Editorial Node (4 Cols) -->
+<div class="md:col-span-4 p-space-md rounded-3xl bg-surface-container-low/70 backdrop-blur-xl shadow-lg flex flex-col justify-between hover:bg-surface-container transition-all group">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono mb-space-sm">
+<span class="text-tertiary">FESTİVAL // GASTRONOMİ</span>
+<span class="text-outline">HAFTA SONU</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-tertiary transition-colors">Kıbrıs Lezzet Festivali</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Lefkara Köyü taş sokaklarında yerel üreticiler, geleneksel şarap tadımları ve lavanta hasadı.</p>
+</div>
+<div class="mt-space-lg pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-outline">
+<span>LEFKARA KÖYÜ</span>
+<span class="text-on-surface">ÜCRETSİZ GİRİŞ</span>
+</div>
+</div>
+<!-- Event 04: Compact Editorial Node (4 Cols) -->
+<div class="md:col-span-4 p-space-md rounded-3xl bg-surface-container-low/70 backdrop-blur-xl shadow-lg flex flex-col justify-between hover:bg-surface-container transition-all group">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono mb-space-sm">
+<span class="text-secondary">STAND-UP // PERFORMANS</span>
+<span class="text-outline">20:00</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Kıbrıs'ta Stand-Up Gecesi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Lefkoşa Bandabuliya Sahnesi'nde ada mizahı, yerel anlatılar ve interaktif tek kişilik performanslar.</p>
+</div>
+<div class="mt-space-lg pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-outline">
+<span>BANDABULİYA · LEFKOŞA</span>
+<span class="text-secondary font-semibold">SON 12 KOLTUK</span>
+</div>
+</div>
+<!-- Event 05: Compact Editorial Node (4 Cols) -->
+<div class="md:col-span-4 p-space-md rounded-3xl bg-surface-container-low/70 backdrop-blur-xl shadow-lg flex flex-col justify-between hover:bg-surface-container transition-all group">
+<div>
+<div class="flex items-center justify-between font-label-mono text-label-mono mb-space-sm">
+<span class="text-secondary-container">GECE HAYATI // ELEKTRONİK</span>
+<span class="text-outline">18:00 — 04:00</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary-fixed transition-colors">Sunset to Night: Elektronik</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Escape Beach kıyısında gün batımıyla başlayan organik deep house ve gece boyu süren modüler synth setleri.</p>
+</div>
+<div class="mt-space-lg pt-space-xs flex items-center justify-between font-label-mono text-[11px] text-outline">
+<span>ESCAPE BEACH · ALSANCAK</span>
+<span class="text-tertiary">DOOR OPEN</span>
+</div>
+</div>
+<!-- Event 06 to 11 Micro Row Ribbon -->
+<div class="md:col-span-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter pt-space-xs">
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Kıbrıs Dağ Bisikleti Turu</span>
+<span class="font-label-mono text-[11px] text-outline truncate">Beşparmak Dağları · 08:30</span>
+</div>
+<span class="font-label-mono text-[10px] text-tertiary uppercase px-2 py-0.5 rounded bg-tertiary-container/30">SPOR</span>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Çocuklar İçin Bilim Atölyesi</span>
+<span class="font-label-mono text-[11px] text-outline truncate">ODTÜ Kalkanlı Kampüsü · 11:00</span>
+</div>
+<span class="font-label-mono text-[10px] text-primary uppercase px-2 py-0.5 rounded bg-primary-container/30">AİLE</span>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Kuzey Işığında Sergi</span>
+<span class="font-label-mono text-[11px] text-outline truncate">Rüstem Kitabevi Galeri · 17:00</span>
+</div>
+<span class="font-label-mono text-[10px] text-secondary uppercase px-2 py-0.5 rounded bg-secondary-container/30">SANAT</span>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Caz Gecesi &amp; Şarap Tadımı</span>
+<span class="font-label-mono text-[11px] text-outline truncate">Gillham Vineyard Ilgaz · 21:30</span>
+</div>
+<span class="font-label-mono text-[10px] text-primary uppercase px-2 py-0.5 rounded bg-primary-container/30">KONSER</span>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Açık Hava Sinema Gecesi</span>
+<span class="font-label-mono text-[11px] text-outline truncate">Mağusa Suriçi Handan Avlusu · 21:00</span>
+</div>
+<span class="font-label-mono text-[10px] text-tertiary-fixed uppercase px-2 py-0.5 rounded bg-tertiary-container/30">SİNEMA</span>
+</div>
+<div class="p-space-sm rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md flex items-center justify-between hover:bg-surface-container-low transition-colors">
+<div class="flex flex-col truncate pr-2">
+<span class="font-body-sm text-body-sm font-semibold text-on-surface truncate">Kurgusal Seramik Atölyesi</span>
+<span class="font-label-mono text-[11px] text-outline truncate">Güzelyurt · 16:00 · 02 Ekim</span>
+</div>
+<span class="font-label-mono text-[10px] text-secondary uppercase px-2 py-0.5 rounded bg-secondary-container/30">ÖNE ÇIKAN</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================================== -->
+<!-- STATE 8: FINALE (THE CELESTIAL HORIZON & CALL TO ENTER)         -->
+<!-- ============================================================== -->
+<section class="relative w-full min-h-[85vh] py-space-xl px-margin-mobile lg:px-margin-desktop flex flex-col justify-center items-center text-center overflow-hidden" id="state-8">
+<!-- Horizon Starlight Ambient Glow Gradient -->
+<div class="absolute bottom-0 inset-x-0 h-[450px] bg-gradient-to-t from-primary/10 via-background to-transparent pointer-events-none"></div>
+<div class="absolute -bottom-20 w-[900px] h-[300px] rounded-full bg-tertiary-container/15 blur-[160px] pointer-events-none"></div>
+<!-- Island Silhouette Stylized Micro Vector Grounding Bottom -->
+<div class="absolute bottom-0 inset-x-0 flex justify-center opacity-15 pointer-events-none">
+<svg class="w-full max-w-5xl h-24" fill="none" viewbox="0 0 1000 100">
+<path d="M0,80 Q250,50 400,65 T700,45 Q850,70 1000,80 L1000,100 L0,100 Z" fill="#2fd9f4"></path>
+</svg>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center">
+<span class="font-label-caps text-label-caps uppercase tracking-[0.32em] text-primary mb-space-sm bg-surface-container-high/60 px-4 py-1.5 rounded-full backdrop-blur-md">
+        08 · NİHAİ ÇAĞRI // HORIZON
+      </span>
+<h2 class="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface leading-tight tracking-tight">
+        Daha Fazlası Seni Bekliyor.
+      </h2>
+<p class="font-headline-md text-headline-md text-transparent bg-clip-text bg-gradient-to-r from-primary via-on-surface-variant to-secondary italic font-serif mt-2">
+        same island · more to experience
+      </p>
+<div class="w-12 h-px bg-gradient-to-r from-transparent via-tertiary to-transparent my-space-md"></div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">
+        VIA EVENTS, Kıbrıs’ın antik taşlarını ve modern kıyılarını tek bir kesintisiz kültür frekansında birleştiriyor. Gecenin bir parçası ol veya kendi sanatsal vizyonunu adaya sun.
+      </p>
+<!-- Interactive Entry Mechanism Action Row -->
+<div class="mt-space-lg flex flex-col sm:flex-row items-center gap-space-md w-full justify-center">
+<button class="w-full sm:w-auto px-space-xl py-4 rounded-xl bg-primary text-on-primary font-label-mono text-label-mono uppercase tracking-widest font-semibold hover:bg-primary-container hover:text-on-primary-container transition-all duration-300 shadow-[0_0_35px_rgba(202,190,255,0.4)] flex items-center justify-center gap-2 group">
+<span>ADA ÇAPINDA KEŞFET</span>
+<span class="material-symbols-outlined text-[20px] group-hover:translate-x-1.5 transition-transform">explore</span>
+</button>
+<button class="w-full sm:w-auto px-space-lg py-4 rounded-xl bg-surface-container-high/70 backdrop-blur-xl text-on-surface font-label-mono text-label-mono uppercase tracking-wider hover:bg-surface-bright transition-all duration-300 flex items-center justify-center gap-2 group">
+<span>KENDİ ETKİNLİĞİNİ YAYINLA</span>
+<span class="material-symbols-outlined text-[20px] text-tertiary group-hover:rotate-45 transition-transform">add_circle</span>
+</button>
+</div>
+<!-- Grounding Telemetry Meta -->
+<div class="mt-space-xl pt-space-md flex flex-wrap items-center justify-center gap-space-md font-label-mono text-[11px] text-outline">
+<span>VIA PROTOCOL V2.4</span>
+<span class="text-outline-variant">·</span>
+<span>LEFKOŞA · GİRNE · GAZİMAĞUSA · GÜZELYURT · İSKELE · LEFKE</span>
+<span class="text-outline-variant">·</span>
+<span class="text-tertiary">STATION ACTIVE</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Dynamic State Indicator Scroll Observer
+  document.addEventListener('DOMContentLoaded', () => {
+    const states = document.querySelectorAll('section[id^="state-"]');
+    const navLinks = document.querySelectorAll('aside nav a');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('scale-125', 'bg-tertiary', 'shadow-[0_0_12px_rgba(47,217,244,0.8)]');
+              link.classList.remove('bg-surface-bright');
+            } else {
+              link.classList.remove('scale-125', 'bg-tertiary', 'shadow-[0_0_12px_rgba(47,217,244,0.8)]');
+              link.classList.add('bg-surface-bright');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.35 });
+
+    states.forEach(s => observer.observe(s));
+  });
+</script></main><footer class="w-full bg-surface-container-lowest py-space-xl shadow-[0_-1px_8px_rgba(0,0,0,0.04)]"><div class="w-full px-margin-mobile lg:px-margin-desktop flex flex-col gap-space-lg"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter-desktop"><div class="flex flex-col gap-space-sm"><div class="font-headline-sm text-headline-sm text-on-surface tracking-tight">VIA EVENTS</div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">A continuous cinematic cultural universe under the Mediterranean night skies. Curating monolithic performances and ancient amphitheater assemblies.</p></div><div class="flex flex-col gap-space-xs"><span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">TEMPORAL REGISTRY</span><div class="font-label-mono text-label-mono text-on-surface flex flex-col gap-1"><span>UTC+3 · NICOSIA / LEFKOŞA</span><span>35.1856° N, 33.3823° E</span><span class="text-on-surface-variant pt-2">KYRENIA · LIMASSOL · PAPHOS</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">MONOGRAPHS</span><div class="flex flex-col gap-1 font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="#">Atmospheric Archives</a><a class="hover:text-on-surface transition-colors" href="#">Curatorial Manifestos</a><a class="hover:text-on-surface transition-colors" href="#">Telemetry &amp; Resonance</a></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-caps text-label-caps uppercase text-primary tracking-widest">NEWSLETTER PULSE</span><p class="font-body-sm text-body-sm text-on-surface-variant">Receive illuminated seasonal invitations.</p><div class="flex items-center gap-space-xs mt-1"><div class="bg-surface-container-low px-space-sm py-2 rounded font-body-sm text-body-sm text-on-surface-variant flex-1">archive@via.events</div><button class="px-space-sm py-2 rounded bg-primary text-on-primary font-label-mono text-label-mono uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-all">SUBMIT</button></div></div></div><div class="flex flex-col sm:flex-row items-center justify-between pt-space-md text-on-surface-variant font-label-mono text-label-mono gap-space-sm"><span>© VIA EVENTS CYPRUS · ALL RIGHTS RESERVED</span><span>DESIGNED WITH ATMOSPHERIC NOCTURNE SYNTHESIS</span></div></div></footer></body></html>
